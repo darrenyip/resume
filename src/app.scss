@@ -1,0 +1,28 @@
+@import './styles/font';
+.index {
+    font-family: 'Harmony';
+    // font-family: 'Courier New', Courier, monospace;
+}
+
+.index {
+    background: #F8F8F8;
+    height: 100vh;
+}
+
+.mb-3 {
+    margin-bottom: 1.5rem;
+}
+
+.mb-5 {
+    margin-bottom: 3rem;
+}
+
+.center {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+.round-button {
+    min-width: 60px !important;
+}
