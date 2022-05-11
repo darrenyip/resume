@@ -1,2 +1,2 @@
-# resume
-wechat-miniapp 微信小程序
+# Resume 个人简历  微信小程序
+
