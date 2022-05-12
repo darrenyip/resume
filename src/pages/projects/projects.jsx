@@ -1,5 +1,5 @@
-import { Project } from "@tarojs/cli";
 import { View } from "@tarojs/components";
+import Project from "./project";
 import InvertTitle from "../../components/invert-title";
 
 import "./projects.scss";

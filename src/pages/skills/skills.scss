@@ -18,7 +18,7 @@ body {
 }
 
 .skills::before {
-    content: "经验";
+    content: "技能";
     font-size: 20rem;
     z-index: 0;
     position: fixed;
@@ -31,4 +31,20 @@ body {
     -webkit-text-fill-color: #ffffff5c;
     -webkit-text-stroke-width: 19rpx;
     -webkit-text-stroke-color: #00000005;
+}
+
+.skill {
+    margin-top: 1rem;
+}
+
+.tinycards {
+    margin-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.tinycard-image {
+    // width: 10px;
+    object-fit: contain;
 }
