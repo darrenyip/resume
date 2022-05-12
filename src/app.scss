@@ -26,3 +26,39 @@
 .round-button {
     min-width: 60px !important;
 }
+
+.container {
+    margin: 0;
+    padding: 12px 10vw;
+}
+
+// invert-title component
+.title-invert-block {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 0.8rem;
+    &--top,
+    &--bottom {
+        font-size: 48px;
+        font-weight: bold;
+        background-color: #6190E8;
+        color: #fff;
+        display: block;
+        padding: .25em;
+        line-height: 58px;
+    }
+    &--bottom {
+        position: absolute;
+        background-color: #fff;
+        color: #6190E8;
+        clip-path: inset(-1% -1% 50% -1%);
+        // Added the negative values to prevent icky
+        //  "bleed" in Chrome
+    }
+}
+
+.title-invert-block--bottom {
+    background-color: #f8f8f8;
+}

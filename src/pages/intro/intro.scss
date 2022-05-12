@@ -1,11 +1,11 @@
-.intro {
-    margin: 0;
-    padding: 12px 10vw;
-}
-
 .education,
 .selfIntro {
     margin-bottom: 1.5rem;
+}
+
+.intro {
+    min-height: calc(100vh - 12px);
+    background: #f8f8f8;
 }
 
 .single-line-text {
@@ -25,32 +25,13 @@
     display: flex;
     align-items: flex-end;
     justify-content: flex-end;
-    marign: margin;
+    marign: 0;
     margin: 10px 0;
 }
 
-.title-invert-block {
-    position: relative;
+.socials {
     display: flex;
+    justify-content: space-evenly;
     align-items: center;
-    justify-content: flex-start;
-    margin-bottom: 0.8rem;
-    &--top,
-    &--bottom {
-        font-size: 48px;
-        font-weight: bold;
-        background-color: #6190E8;
-        color: #fff;
-        display: block;
-        padding: .25em;
-        line-height: 58px;
-    }
-    &--bottom {
-        position: absolute;
-        background-color: #fff;
-        color: #6190E8;
-        clip-path: inset(-1% -1% 50% -1%);
-        // Added the negative values to prevent icky
-        //  "bleed" in Chrome
-    }
+    width: 80vw;
 }

@@ -1,10 +1,11 @@
 import { View, Text } from "@tarojs/components";
-import InvertTitle from "./invert-title";
+import InvertTitle from "../../components/invert-title";
 
 const Education = () => {
+  const title = "教育背景";
   return (
     <View className="education">
-      <InvertTitle title={"教育背景"} />
+      <InvertTitle title={title} />
       <View className="main-text">
         <Text className="single-line-text">
           University at Albany(纽约州立大学)

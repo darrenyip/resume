@@ -17,21 +17,11 @@ export default class Index extends Component {
       { title: "技能树", icon: "lightning-bolt", url: "skills" }
     ]
   };
-  componentWillMount() {}
-
-  componentDidMount() {}
-
-  componentWillUnmount() {}
-
-  componentDidShow() {}
-
-  componentDidHide() {}
   handleNavigate = path => {
     Taro.navigateTo({
       url: "/pages/" + path + "/" + path
     });
   };
-
   render() {
     const { data } = this.state;
     return (

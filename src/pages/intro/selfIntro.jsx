@@ -1,10 +1,11 @@
 import { View, Text } from "@tarojs/components";
-import InvertTitle from "./invert-title";
+import InvertTitle from "../../components/invert-title";
 
 const SelfIntro = () => {
+  const title = "自我介绍";
   return (
     <View className="selfIntro">
-      <InvertTitle title={"自我介绍"} />
+      <InvertTitle title={title} />
       <View className="main-text">
         <Text className="at-article__p">
           热爱程序开发工作，具备良好的软件分析，设计，
