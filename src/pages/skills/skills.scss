@@ -1,0 +1,34 @@
+body {
+    position: relative;
+}
+
+.skills {
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    background: #f8f8f8;
+    width: 100vw;
+    min-height: 100vh;
+    padding-bottom: 10vh;
+}
+
+.skills .container {
+    z-index: 1;
+    position: relative;
+}
+
+.skills::before {
+    content: "经验";
+    font-size: 20rem;
+    z-index: 0;
+    position: fixed;
+    top: -21vw;
+    left: 12vw;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(-37deg);
+    color: #0000000d;
+    -webkit-text-fill-color: #ffffff5c;
+    -webkit-text-stroke-width: 19rpx;
+    -webkit-text-stroke-color: #00000005;
+}

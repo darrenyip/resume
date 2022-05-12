@@ -35,7 +35,11 @@ export default class Index extends Component {
         <View className="cards at-row">
           {data.map(item => {
             return (
-              <View className="cards-card at-col" key={item.url}>
+              <View
+                className="cards-card at-col"
+                key={item.url}
+                onClick={() => this.handleNavigate(item.url)}
+              >
                 <View className="circle">
                   <AtIcon
                     value={item.icon}
@@ -49,7 +53,6 @@ export default class Index extends Component {
                   type="primary"
                   circle
                   size="small"
-                  onClick={() => this.handleNavigate(item.url)}
                 >
                   <View className="taro-text at-icon at-icon-chevron-right"></View>
                 </AtButton>

@@ -1,12 +1,12 @@
 import Taro from "@tarojs/taro";
-import { useState } from "react";
-import { View, Text, Image } from "@tarojs/components";
-import { AtAvatar, AtActionSheet, AtActionSheetItem, AtToast } from "taro-ui";
-import Avatar from "../../assets/images/darrens-photo.jpg";
 import "taro-ui/dist/style/components/avatar.scss";
 import "taro-ui/dist/style/components/modal.scss";
 import "taro-ui/dist/style/components/toast.scss";
 import "taro-ui/dist/style/components/action-sheet.scss";
+import { useState } from "react";
+import { View, Text, Image } from "@tarojs/components";
+import { AtAvatar, AtActionSheet, AtActionSheetItem, AtToast } from "taro-ui";
+import Avatar from "../../assets/images/darrens-photo.jpg";
 
 import Wechat from "../../assets/images/icons/wechat.png";
 import Phone from "../../assets/images/icons/telephone.png";
