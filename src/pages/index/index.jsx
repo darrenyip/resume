@@ -5,7 +5,7 @@ import { Component } from "react";
 import { View, Text, Image } from "@tarojs/components";
 import { AtButton, AtIcon } from "taro-ui";
 import Taro from "@tarojs/taro";
-import Darren from "../../assets/images/darrens-photo.jpg";
+import Darren from "../../assets/images/darren-photo.jpg";
 import "./index.scss";
 
 export default class Index extends Component {
@@ -28,7 +28,8 @@ export default class Index extends Component {
       <View className="index">
         <View className="center mb-3">
           <Image
-            style="width:300px;height:300px;border-radius:10px;margin:1rem auto;"
+            className="main-photos"
+            style="border-radius:10px;margin:1rem auto;"
             src={Darren}
           />
         </View>
