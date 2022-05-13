@@ -13,22 +13,22 @@ const Projects = () => {
       duration: "2021.5",
       position: "开发，运维",
       description: [
-        "搭建Dhar Mann Studio 的门户页面，拥有自己的部落格及视频展示页面。",
-        "着陆页通过社交网络宣传, 为YouTube带来更多点击及关注。",
-        "商城页主要销售Dhar Mann周边产品。",
+        "开发首页，部落格及视频页面。",
+        "用jQuery+GSAP3实现页面动效。",
+        "利用Shopify平台并客制化商城页面",
         "创建低代码模板"
       ],
       tech: [
-        "开发动效组件实现在拖动页面时候改变页面内容及呈现效果。",
+        "开发动效组件实现在拖动页面实时改变页面内容及呈现效果。",
         "使用Owl Carousel 实现卡片轮播及点击切换。",
-        "用 Youtube Api 获取Dhar Mann频道视频数据"
+        "用Liquid (Shopify Template Engine) 开发商城页面"
       ]
     },
     {
       title: "主页(独立开发)",
       name: "Alison Qualter",
       duration: "2021.2",
-      position: "开发运维",
+      position: "开发，运维",
       description: [
         "Alison Qualter的门户页面, 拥有自己的部落格及视频页面。",
         "搭建用户后台：课程页面添加/展示，个人课程日历，课程播放管理。",
@@ -38,7 +38,7 @@ const Projects = () => {
         "使用Keap+Memberium 管理用户账户注册及会员等级状态",
         "使用Chart.js 对获取的数据进行图表绘制",
         "使用fullCalendar制作用户课程日历",
-        "注入Stripe 收款"
+        "注入 Stripe 实现收款功能"
       ]
     },
     {
